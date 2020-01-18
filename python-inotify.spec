@@ -9,7 +9,7 @@
 Summary:       Monitor filesystem events with Python under Linux
 Name:          python-inotify
 Version:       0.9.4
-Release:       3%{?dist}
+Release:       4%{?dist}
 License:       MIT
 Group:         Development/Libraries
 URL:           https://github.com/seb-m/pyinotify
@@ -115,6 +115,9 @@ popd
 %endif
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.9.4-4
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Jakub Filak <jfilak@redhat.com> - 0.9.4-3
 - make with_python3 be conditional on fedora
 
